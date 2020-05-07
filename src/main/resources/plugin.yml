@@ -1,0 +1,14 @@
+name: NoHunger
+version: ${project.version}
+main: top.jingwenmc.nohunger.NoHunger
+authors: [jingwenMC]
+description: Disable Or Enable Hunger With A Single Command
+website: www.jingwenmc.top
+commands:
+  nohungertoggle:
+    aliases: [nht,noht]
+    description: 'Toggle Hunger'
+permissions:
+  nohunger.admin:
+    description: 'Toggle Hunger'
+    default: op
